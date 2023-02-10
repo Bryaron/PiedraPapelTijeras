@@ -49,19 +49,6 @@ body {
     margin: 0px auto;
 }
 
-/* .rock, .paper, .scissor{
-    
-    background-image: url(../img/Caja\ Piedra.svg);
-    background-size: cover;
-    height: 100%;
-    width: 30%;
-    min-width: 100px;
-    max-width: 116px;
-    min-height:96px;
-    max-height:136px;
-    padding: 5px;
-} */
-
 .rock{
     
     background-image: url(../img/Caja\ Piedra.svg);
@@ -103,62 +90,26 @@ body {
 }
 
 .fighting{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40%;
     width: 100%;
-    min-height: 213px;
-    max-height: 350px; /* 350 */
-    min-width: 328px;
-    max-width: 600px;
+    max-width: 650px;
     margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    
 }
 
-/* .user, .pc{
-    
-    background-image: url("../img/Frame\ Usuario.svg");
-    background-size: cover;
-    align-self: center;
-    padding: 10px;
-    height: 180px;
+.fighter {
     width: 100%;
-    flex-grow: 1;
-    scale: 1;
-    
-} */
-
-.user{
-    
-    background-image: url("../img/Frame\ Usuario.svg");
-    background-size: cover;
-    align-self: center;
-    padding: 10px;
-    height: 180px;
-    width: 100%;
-    flex-grow: 1;
+    height: auto;
 }
 
+/* Exlusivo para pc */
 .pc{
-    
-    background-image: url("../img/Frame\ PC.svg");
-    background-size: cover;
-    align-self: center;
-    padding: 10px;
-    height: 180px;
-    width: 100%;
-    flex-grow: 1;
     transform: scaleX(-1);
 }
-
-.vs{
-    background-image: url("../img/Frame\ VS.svg");
-    background-size: cover;
-    padding: 10px;
-    height: 97px;
-    width: 205px;
-    flex-grow: 0;   
-}
+/*----------------  */
 
 .winer p {
     text-align: center;
@@ -182,71 +133,6 @@ body {
     margin: 5px auto;
 }
 
-@media (width>=450px){
-    .user{
-        background-image: url(../img/Frame\ Usuario.svg);
-        background-size: cover;
-        align-self: center;
-        padding: 10px;
-        height: 235px;
-        width: 100%;
-        flex-grow: 1;
-    }   
-    .pc {
-        background-image: url(../img/Frame\ PC.svg);
-        background-size: cover;
-        align-self: center;
-        padding: 10px;
-        height: 235px;
-        width: 100%;
-        flex-grow: 1;
-    }   
-}
 
-@media (width >= 550px){
-    .user{
-    background-image: url(../img/Frame\ Usuario.svg);
-    background-size: cover;
-    align-self: center;
-    padding: 10px;
-    height: 280px;
-    width: 100%;
-    flex-grow: 1;
-    }
-    .pc {
-    background-image: url(../img/Frame\ PC.svg);
-    background-size: cover;
-    align-self: center;
-    padding: 10px;
-    height: 280px;
-    width: 100%;
-    flex-grow: 1;
-    }
-}
-
-@media (width>=600px){
-    .user{
-        background-image: url(../img/Frame\ Usuario.svg);
-        background-size: cover;
-        align-self: center;
-        padding: 10px;
-        height: 325px;
-        width: 100%;
-        flex-grow: 1;
-    }
-    .pc {
-        background-image: url(../img/Frame\ PC.svg);
-        background-size: cover;
-        align-self: center;
-        padding: 10px;
-        height: 325px;
-        width: 100%;
-        flex-grow: 1;
-    }
-}
-
-
-
-/* Clases para agregar y eliminar */
 
 
